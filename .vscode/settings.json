@@ -1,0 +1,15 @@
+{
+    "prettier.tabWidth": 4,
+    "javascript.format.enable": false,
+
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        // For ESLint
+        "source.fixAll.eslint": true
+    }
+}

@@ -1,0 +1,11 @@
+GET http://localhost:3000/movies
+
+###
+
+POST http://localhost:3000/movies
+content-type: application/json
+
+{
+    "a": "1212",
+    "b": "dfsdd"
+}
